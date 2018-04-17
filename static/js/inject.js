@@ -1,5 +1,5 @@
 (function() {
-	try {
+  try {
     addEventListener('message', (event => {
       if ( event.data.id !== 'patterns' ) {
         return;
